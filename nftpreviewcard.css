@@ -1,0 +1,252 @@
+*{box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*styling the body*/
+body{
+    
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/*styling the card*/
+.card{
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 43vh;
+    height: 82vh;
+    border-radius: 1rem;
+    margin-top: 4rem;
+}
+
+/*styling the card contents*/
+
+#image{
+    margin: 1rem; 
+    width: 220px;
+    border-radius: 0.5rem;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0.1rem 0rem 0rem 1.2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+#info{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0.7rem 1rem 0rem 1.2rem;
+    
+}
+
+.specifications{
+    display: flex;
+    flex-direction: row;
+    margin: 0.8rem 0rem 0rem 1.2rem;
+    gap: 3.7rem;
+}
+
+/*styling the Ethereum and its icon*/
+.separate{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    align-items: justify;
+}
+
+#ethicon{
+    height: 13px;
+}
+#ethereum{
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+}
+
+/*styling the countdown and its clock image*/
+#clock{
+    width: 14.8px;
+    height: 15px;
+    margin-top: 0.03rem;
+}
+#countdown{
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    margin-top: 0.03rem;
+}
+
+/*styling the horizontal line*/
+hr{
+    padding: 0.03rem;
+    border: 1rem;
+    margin: 0.2rem 1rem 0rem 1rem;
+    background-color: hsl(215, 32%, 27%);
+}
+
+/*styling the details below the horizonatal line*/
+.owner{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    margin: 0.6rem 1rem 0rem 1.2rem;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+#ownerimage{
+    margin-top: 0.3rem;
+    width: 25px;
+    height: 24px;
+    border: 0.1rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+}
+
+#ownerdetails{
+    margin-top: 0.6rem;
+    text-align: center;
+}
+#firsthalf{
+    color: hsl(215, 51%, 70%);
+}
+#secondhalf{
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 400px){
+    
+    /*styling the card*/
+    .card{
+        margin-top: 2rem;
+        width: 54vh;
+        height: 90vh;
+    }
+
+    /*styling the card contents*/
+    #image{
+        margin: 1.3rem; 
+        width: 225px;
+        border-radius: 0.5rem;
+    }
+
+    h5{
+        font-size: 15px;
+        margin: 0.1rem 0rem 0rem 1.3rem;
+    }
+
+    #info{
+        font-size: 13px;
+        margin: 0.7rem 0rem 0rem 1.3rem;
+        
+    }
+
+    .specifications{
+        margin: 0.5rem 0rem 0rem 1.3rem;
+        gap: 4.3rem;
+    }
+
+    .separate{
+        margin-top: 0.6rem;
+    }
+
+    /*styling the Ethereum and its icon*/
+    #ethicon{
+        height: 16px;
+    }
+
+    /*styling the countdown and its clock image*/
+    #clock{
+        width: 14.8px;
+        height: 15px;
+        margin-top: 0.05rem;
+    }
+    #countdown{
+        font-size: 13px;
+        margin-top: 0.1rem;
+    }
+
+    /*styling the horizontal line*/
+    hr{
+        margin: 0.1rem 1.3rem 0rem 1.3rem;
+    }
+
+    /*styling the details below the horizonatal line*/
+    .owner{
+        gap: 0.9rem;
+        margin: 0.6rem 1rem 0rem 1.3rem;
+        font-size: 13px;
+    }
+    #ownerimage{
+        width: 27px;
+        height: 28px;
+    }
+
+    #ownerdetails{
+        margin-top: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 402px) and (max-width:1440px){
+
+    /*styling the card*/
+    .card{
+        width: 47vh;
+        height: 81vh;
+        margin-top: 3rem;
+    }
+
+    /*styling the card contents*/
+    #image{
+        width: 200px;
+    }
+
+    h5{
+        font-size: 13px;
+        margin: 0.04rem 0rem 0rem 1.1rem;
+    }
+
+    #info{
+        font-size: 11px;
+        margin: 0.7rem 0rem 0rem 1.1rem;
+        
+    }
+
+    .specifications{
+        margin: 0.3rem 0rem 0rem 1.1rem;
+        gap: 3.3rem;
+    }
+
+    /*styling the Ethereum and its icon*/
+    #ethicon{
+        height: 13px;
+    }
+
+    #ethereum{
+        font-size: 12px;
+    }
+
+    /*styling the countdown and its clock image*/
+    #clock{
+        width: 14px;
+        height: 14.5px;
+        margin-top: 0.08rem;
+    }
+    #countdown{
+        font-size: 12px;
+        margin-top: 0.08rem;
+    }
+
+    /*styling the horizontal line*/
+    hr{
+        margin: 0.05rem 1.1rem 0rem 1.1rem;
+    }
+
+    /*styling the details below the horizonatal line*/
+    .owner{
+        margin: 0.6rem 1rem 0rem 1.2rem;
+        font-size: 11px;
+    }
+}
+
